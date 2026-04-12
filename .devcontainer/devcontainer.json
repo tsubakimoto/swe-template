@@ -4,6 +4,8 @@
   "name": "Software engineering repository template",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "image": "mcr.microsoft.com/devcontainers/python:3-3.14-trixie",
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
     "ghcr.io/devcontainers/features/azure-cli:1": {},
     "ghcr.io/devcontainers/features/copilot-cli:1": {},
@@ -14,9 +16,6 @@
     "ghcr.io/devcontainers/features/powershell:2": {},
     "ghcr.io/azure/azure-dev/azd:0": {}
   },
-
-  // Features to add to the dev container. More info: https://containers.dev/features.
-  // "features": {},
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
