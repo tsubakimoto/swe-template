@@ -7,7 +7,11 @@
 	"features": {
 		"ghcr.io/devcontainers/features/copilot-cli:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/powershell:2": {}
+		"ghcr.io/devcontainers/features/powershell:2": {},
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/dotnet:2": {
+      "additionalVersions": "lts"
+    }
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -17,7 +21,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "[ -d ~/.copilot/skills ] || git clone https://github.com/tsubakimoto/skills ~/.copilot/skills"
+	"postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
