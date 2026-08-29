@@ -2,7 +2,7 @@
 name: PR Agent
 description: 指定されたイシューと実装に対するプルリクエストを作成します。
 tools: [execute, read, search, web, todo]
-model: GPT-5 mini (copilot)
+model: GPT-5.6 Luna (copilot)
 ---
 
 # PR Agent

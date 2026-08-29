@@ -4,7 +4,7 @@ description: テストを実行し、失敗の原因とカバレッジの不足�
 user-invocable: true
 disable-model-invocation: false
 tools: [execute, read, search, todo]
-model: GPT-5.4 mini (copilot)
+model: Claude Sonnet 5 (copilot)
 ---
 
 # Test Agent

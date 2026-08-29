@@ -4,7 +4,7 @@ description: Azure リソースの構成やコードが課金に与える影響�
 user-invocable: false
 disable-model-invocation: false
 tools: [read, search, web, todo]
-model: Claude Sonnet 4.6 (copilot)
+model: Claude Sonnet 5 (copilot)
 ---
 
 # Review Azure Cost Agent

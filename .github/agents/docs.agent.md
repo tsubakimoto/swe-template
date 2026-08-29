@@ -4,7 +4,7 @@ description: 実装内容に合わせてドキュメントを作成・更新し�
 user-invocable: true
 disable-model-invocation: false
 tools: [execute, read, edit, search, web, todo]
-model: Claude Sonnet 4.6 (copilot)
+model: Claude Sonnet 5 (copilot)
 ---
 
 # Docs Agent

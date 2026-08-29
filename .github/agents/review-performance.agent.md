@@ -4,7 +4,7 @@ description: 計算量、リソース利用、スケーラビリティの観点�
 user-invocable: false
 disable-model-invocation: false
 tools: [read, search, web, todo]
-model: Claude Sonnet 4.6 (copilot)
+model: Claude Sonnet 5 (copilot)
 ---
 
 # Review Performance Agent

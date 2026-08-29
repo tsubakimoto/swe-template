@@ -4,7 +4,7 @@ description: 技術的な調査を行い、選択肢を比較検討して根拠�
 user-invocable: true
 disable-model-invocation: false
 tools: [read, search, web, todo]
-model: Claude Sonnet 4.6 (copilot)
+model: Claude Sonnet 5 (copilot)
 ---
 
 # Research Agent
