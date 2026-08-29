@@ -4,7 +4,7 @@ description: 不具合の再現と根本原因分析を行い、回帰テスト�
 user-invocable: true
 disable-model-invocation: false
 tools: [execute, read, edit, search, web, todo]
-model: GPT-5.6 Sol (copilot)
+model: GPT-5.6 Terra (copilot)
 ---
 
 # Debug Agent

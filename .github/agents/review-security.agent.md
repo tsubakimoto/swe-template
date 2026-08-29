@@ -4,7 +4,7 @@ description: セキュリティ上の脆弱性や機密情報の取り扱いを�
 user-invocable: false
 disable-model-invocation: false
 tools: [read, search, web, todo]
-model: GPT-5.6 Sol (copilot)
+model: GPT-5.6 Terra (copilot)
 ---
 
 # Review Security Agent
