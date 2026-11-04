@@ -1,29 +1,29 @@
 # ガイドライン
 
-## 全般
+## Architectural Decision Records
 
-- `.github/copilot-instructions.md` : Copilot の振る舞い
+Architecture / Design に関する Plan および Implementation では、[`docs/adr/workflow.md`](docs/adr/workflow.md) に定義された ADR workflow に従う。
 
 ## サブエージェント
 
 ```
 .github/
 └── agents/
-    ├── orchestrator.agent.md  # オーケストレーター
-    ├── issue.agent.md         # Issue 作成/管理
-    ├── research.agent.md      # 技術調査と選択肢の比較検討
-    ├── plan.agent.md          # 実装計画の策定
-    ├── impl.agent.md          # TDD に基づく実装
-    ├── debug.agent.md         # 不具合の根本原因分析と修正
-    ├── test.agent.md          # テスト実行と失敗/カバレッジの分析
-    ├── review.agent.md        # レビューの統括・統合
-    ├── review-correctness.agent.md  # 要求適合・ロジック・テスト
-    ├── review-design.agent.md       # 設計・可読性・ドキュメント
-    ├── review-security.agent.md     # セキュリティ
-    ├── review-performance.agent.md  # パフォーマンス
-    ├── review-azure-cost.agent.md   # Azure コスト
-    ├── docs.agent.md          # ドキュメントの作成/更新
-    └── pr.agent.md            # PR 作成
+    ├── orchestrator.agent.md       # オーケストレーター
+    ├── issue.agent.md              # Issue 作成/管理
+    ├── research.agent.md           # 技術調査と選択肢の比較検討
+    ├── plan.agent.md               # 実装計画の策定
+    ├── impl.agent.md               # TDD に基づく実装
+    ├── debug.agent.md              # 不具合の根本原因分析と修正
+    ├── test.agent.md               # テスト実行と失敗/カバレッジの分析
+    ├── review.agent.md             # レビューの統括・統合
+    ├── review-correctness.agent.md # 要求適合・ロジック・テスト
+    ├── review-design.agent.md      # 設計・可読性・ドキュメント
+    ├── review-security.agent.md    # セキュリティ
+    ├── review-performance.agent.md # パフォーマンス
+    ├── review-azure-cost.agent.md  # Azure コスト
+    ├── docs.agent.md               # ドキュメントの作成/更新
+    └── pr.agent.md                 # PR 作成
 ```
 
 ### 呼び出し階層

@@ -1,9 +1,10 @@
----
-applyTo: '**/*'
----
-# Copilot Instructions
+# GitHub Copilot Instructions
 
-This repository is software engineering repository template.
+This repository is a software engineering repository template.
+
+## Architectural Decisions
+
+Architecture / Design decisions must follow the instructions defined in `AGENTS.md`.
 
 ## Model tone
 
