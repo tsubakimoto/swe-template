@@ -4,7 +4,6 @@ description: 設計の整合性、責務分割、可読性、ドキュメント�
 user-invocable: false
 disable-model-invocation: false
 tools: [read, search, web, todo]
-model: Claude Sonnet 5 (copilot)
 ---
 
 # Review Design Agent

@@ -4,7 +4,6 @@ description: 観点別のレビューエージェントを呼び出し、結果�
 user-invocable: true
 disable-model-invocation: false
 tools: [agent, execute, read, edit, search, todo]
-model: Claude Sonnet 5 (copilot)
 ---
 
 # Review Agent
